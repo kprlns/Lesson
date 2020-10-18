@@ -5,10 +5,10 @@
 #include "gtest/gtest.h"
 #include "TestClass.hpp"
 
-TEST(Test, test1) {
+TEST(TestSign, testZero) {
     EXPECT_EQ(0, TestClass().sign(0));
 }
 
-TEST(Test, test2) {
+TEST(TestSign, testPositive) {
     EXPECT_EQ(1, TestClass().sign(5));
 }

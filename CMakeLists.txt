@@ -10,5 +10,5 @@ add_subdirectory(src)
 add_subdirectory(test)
 
 
-add_executable(Lesson src/main.cpp )
+add_executable(Lesson src/main.cpp src/Vector.hpp)
 target_link_libraries(Lesson -lgtest)
